@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+body{
+     background-position:center
+     center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;}
+
+
+     header{
+        background-color:orangered;
+        border-style: solid;
+        border-color:black;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+     .img{
+        border-color: black;
+        display: block;
+        border: dashed;
+    }
+
+    .image{
+        width: 60%;
+    }
+
+    .parrafo img{
+      width: 50%;
+      text-align: left;
+      float: left;
+
+    }
+
+.parrafo{
+
+    text-align: right;
+}
+
+
+.MenuH{
+    overflow: hidden;
+    border-top: 5px dashed;
+	border-bottom: 5px dashed;
+	border-left: 5px dashed;
+	border-right: 5px dashed;
+
+
+}
+
+
+.MenuH a{
+	background-color: orangered;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+}
+
+.MenuH a:hover{
+	background-color: white;
+	color:orangered;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
